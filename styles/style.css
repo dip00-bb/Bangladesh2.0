@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #F1F1F3;
+} 
+
+/* font family for website */ 
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------- */
+
+
+
+header{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+header .text h4{
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    left: -82px;
+}  
+
+header .signin-btn{
+    width: 116px;
+    height: 52px;
+    font-weight:600;
+    font-size: 18px;
+    color: #006A50;
+    background-color: transparent;
+    border:1px solid #006A50;
+    border-radius: 8px;
+    outline: 0; 
+    position: relative;
+    left: 78px;
+
+} 
+
+
+/*  main section */ 
+
+main{
+    width: 100%;
+    padding: 0 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+
+/* common styles for all section  */ 
+
+section{
+    width: 1280px;
+    margin-bottom: 80px;
+} 
+
+
+/* ----------------------------------- hero section ----------------------------  */ 
+
+
+#hero{
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius:24px ;
+    background-color: rgba(198, 228, 214, 1);
+
+} 
+
+
+/* --------- hero section left side---------- */
+
+#hero .left-content{
+    width: 48%;
+
+
+}  
+
+#hero .left-content p{
+    font-size: 24px;
+    font-weight:500 ;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+} 
+
+#hero .left-content h3{
+    font-size: 56px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+} 
+
+#hero .left-content .explore-btn{
+    width: 270px;
+    height: 56px;
+    background-color: #006A50;
+}
+
+
+
+/* --------- hero section right side---------- */
+
+#hero .right-content{
+    width: 37%;
+
+}
+
+
+/* ----------------------------------- pillar section -----------------------------------  */
+
+#pillars{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#pillars h4{
+    margin-bottom: 32px;
+} 
+
+#pillars .body{
+    display: flex;
+    justify-content: space-between;
+} 
+
+#pillars .body .card{
+    width: 23%;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+} 
+
+
+#pillars .body .card img{
+    margin-bottom: 24px;
+} 
+
+
+/* ----------------------------------- future vision section -----------------------------------  */
+
+#vision .head{
+    margin-bottom: 32px;
+} 
+
+
+
+#vision .body{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* set the margin of paragraphs of individual cards */
+
+#vision .body .card1 p{
+    margin-bottom: 24px;
+}
+
+#vision .body .card2 p{
+    margin-bottom: 48px;
+}
+
+#vision .body .card3 p{
+    margin-bottom: 26px;
+}
+
+
+/* styling every card  */
+
+
+#vision .body .card{
+    width: 32%;
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom:32px;
+}
+
+
+/* styling individual card */
+
+#vision .body .card1{
+    background-color: rgba(84, 144, 245, 0.2);
+} 
+
+#vision .body .card2{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+#vision .body .card3{
+    background-color: rgba(247, 235, 207, 1);
+}
+
+
+/* set the margin of card images */
+
+#vision .body .card img{
+    margin-bottom: 24px;
+} 
+
+/* set height and width of cards button */
+
+#vision .body .card button{
+    width: 122px;
+    height: 41px;
+    font-size: 16px;
+}
+
+
+/*  styling individual button */
+
+#vision .body .card .blue{
+    background-color: #5490F5;
+} 
+
+#vision .body .card .green{
+    background-color: #09A15C;
+} 
+
+#vision .body .card .orange{
+    background-color: #FFC239;
+}  
+
+
+/* styling the footer */ 
+
+
+#vision .foot{
+    width: 100%;
+    background: url("../assets/quote-bg.png") no-repeat 24px 20px;
+    padding:48px 24px ;
+    background-color:#FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+
+
+#vision .foot p{
+    margin-bottom: 12px;
+
+}
+
+
+#vision .foot h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+
+}
