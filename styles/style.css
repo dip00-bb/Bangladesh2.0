@@ -37,8 +37,9 @@ header {
     height: 100px;
     margin-bottom: 20px;
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
+
 
 } 
 
@@ -64,7 +65,7 @@ header .signin-btn {
     border-radius: 8px;
     outline: 0;
     position: relative;
-    left:80px;
+    left:73px;
 
 
 }
@@ -84,8 +85,8 @@ main {
 /* common styles for all section  */
 
 section {
-    /* width: 80%; */
-    width: 1280px;
+    width: 80%;
+    /* width: 1280px; */
     margin-bottom: 80px;
 }
 
