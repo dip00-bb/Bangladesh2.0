@@ -49,6 +49,8 @@ header .text h4 {
     font-weight: bold;
     position: relative;
     left: -105px;
+
+    
 }
 
 header .signin-btn {
@@ -63,6 +65,7 @@ header .signin-btn {
     outline: 0;
     position: relative;
     left:105px;
+
 
 }
 
