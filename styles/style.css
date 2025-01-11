@@ -452,3 +452,129 @@ section{
     position: relative;
     right: 30px;
 }
+
+
+
+
+
+
+
+/* ------------------- donation section ---------------------*/ 
+
+#donate .money-card{
+    display: flex;
+    justify-content: space-around;
+    margin:32px 0;
+} 
+
+#donate .money-card div{
+    height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+
+
+#donate .money-card div p{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+
+}
+
+
+
+
+#donate .money-card .one-hundred{
+    width: 240px;
+} 
+
+/*  hover effect on one hundred taka */
+
+#donate .money-card .one-hundred:hover{
+    transform: translate(10px, -10px);
+    transition:  0.8s;
+    background-color: #FFA726;
+    border: 2px solid goldenrod;
+    color: #B76E79;
+}
+
+
+
+
+
+#donate .money-card .two-hundred{
+    width: 252px;
+    background-color: #C6E4D6;
+} 
+
+
+/*  hover effect on two hundred taka */
+
+#donate .money-card .two-hundred:hover{
+    transform: translate(-10px, 10px);
+    transition:  0.8s;
+    background-color: #EF6C00;
+    border: 2px solid goldenrod;
+    color: #B76E79;
+}
+
+
+
+#donate .money-card .five-hundred{
+    width: 243px;
+} 
+
+
+/*  hover effect on five hundred taka */
+
+#donate .money-card .five-hundred:hover{
+    transform: translate(10px, 0px);
+    transition:  0.8s;
+    background-color: #0950a1;
+    border: 2px solid goldenrod;
+    color: #B76E79;
+}
+
+
+#donate .money-card .thousand{
+    width: 264px;
+}
+
+
+/*  hover effect on thousand taka */
+
+#donate .money-card .thousand:hover{
+    transform: translate(-10px, 0px);
+    transition:  0.8s;
+    background-color: #e42a2a;
+    border: 2px solid goldenrod;
+    color: #B76E79;
+}
+
+/*  forms // input and button */ 
+#donate form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+
+#donate form input[type="text"]{
+    width: 90%;
+    height: 64px;
+    border: 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+
+#donate form button[type="submit"]{
+    width: 151px;
+    height: 56px;
+    background-color: #006A50;
+}
