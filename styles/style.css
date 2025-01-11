@@ -275,4 +275,180 @@ section{
     font-weight: 600;
     color: rgba(14, 14, 14, 0.8);
 
+} 
+
+
+
+/* ------------------------------ opinion table section ----------------------------- */
+
+#your-opinion .body{
+    width: 100%;
+    background-color:#FFFFFF ;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+#your-opinion table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+
+#your-opinion table thead,td{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+
+#your-opinion .body table thead{
+    height: 72px;
+    background-color: #C6E4D6;
+
+}
+
+
+#your-opinion table thead th{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0E;
+    text-align: left;
+    padding: 24px;
+    
+} 
+
+#your-opinion table td{
+    font-size: 16px;
+    font-weight: 600;
+    color: #0E0E0E;
+    padding: 36.5px 0 36.5px 24px;
+} 
+
+#your-opinion tbody td select{
+    width: 152px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: #C6E4D6;
+    border-radius: 1px solid #0E0E0E;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E0E0E;
+    padding: 10px;
+    padding-right: 30px;
+   
+} 
+
+#your-opinion tbody tr .select-option{
+    text-align: center;
+    width: 200px;
+    padding: 24px;
+} 
+
+
+
+
+
+/* ------------------------------ recent news section ----------------------------- */
+
+#recent-news .description{
+    margin-bottom: 32px;
+}
+
+#recent-news .boxes{
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 24px;
+    
+}
+
+#recent-news .box{
+    padding:48px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+#recent-news .boxes .box .images{
+    width: 32%;
+    border-radius: 24px;
+
+} 
+
+#recent-news .boxes .box .images img{
+    border-radius: 24px;
+}
+
+
+
+#recent-news .boxes .box-content{
+    width: 58%;
+
+}
+
+
+#recent-news .boxes .box-content h5{
+    font-size: 32px;
+    font-weight: bold;
+    color:rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+
+
+#recent-news .boxes .box-content img{
+    margin-bottom: 12px;
+} 
+
+
+#recent-news .boxes .box-content {
+    position: relative;
+    left: -50px;
+}
+
+#recent-news .boxes .box-content .datetime{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+
+}
+
+#recent-news .boxes .box-content .date,.time{
+    font-size: 16px;
+    font-weight:400 ;
+    line-height: 24px;
+    color:rgba(14, 14, 14, 0.7);
+
+}
+
+
+#recent-news .boxes .box-content .readmore-btn{
+    width: 139px;
+    height: 48px;
+    background-color: #006A50;
+} 
+
+
+
+/* ------------------- special flex direction for box 2 ---------------------*/
+
+#recent-news .middle-box{
+    padding:48px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+} 
+
+#recent-news .boxes .middle-box .box-content {
+
+    position: static;
+} 
+
+#recent-news .boxes .middle-box .images {
+    position: relative;
+    right: 30px;
 }
