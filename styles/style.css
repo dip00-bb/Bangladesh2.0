@@ -45,7 +45,7 @@ header .text h4{
     font-size: 32px;
     font-weight: bold;
     position: relative;
-    left: -82px;
+    left: -75px;
 }  
 
 header .signin-btn{
@@ -59,7 +59,7 @@ header .signin-btn{
     border-radius: 8px;
     outline: 0; 
     position: relative;
-    left: 78px;
+    left: 73px;
 
 } 
 
@@ -78,7 +78,7 @@ main{
 /* common styles for all section  */ 
 
 section{
-    width: 1280px;
+    width:80%;
     margin-bottom: 80px;
 } 
 
@@ -577,4 +577,93 @@ section{
     width: 151px;
     height: 56px;
     background-color: #006A50;
+} 
+
+
+
+
+
+
+
+
+/* ------------------- subscribe section ---------------------*/ 
+
+
+#subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:80px 265px ;
+    background-color:#C6E4D6 ;
+    border-radius: 24px;
+}  
+ 
+                         
+#subscribe .title{
+    margin-bottom: 24px;
+}
+#subscribe form{
+    width:100%;
+    display: flex;
+}
+
+
+
+#subscribe form input[type="text"]{
+    width: 90%;
+    height: 55px;
+    border: 0;
+    outline: 0;
+    padding: 18px 40px;
+    border-top-left-radius:8px ;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius:0px ;
+    border-bottom-right-radius: 0px;
+    margin-bottom: 24px;
+} 
+
+
+#subscribe form button[type="submit"]{
+    width: 150px;
+    height: 54px;
+    background-color: #006A50;
+    border-top-left-radius:0px ;
+    border-bottom-left-radius: 0px;
+    position: relative;
+    left: 1px;
+    top: 0.5px;
+    border: 0;
+}
+
+
+
+/* ------------------- footer  ---------------------*/ 
+
+
+
+footer{
+    width: 100%;
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+footer .div1 h3{
+    font-size:32px ;
+    font-weight: bold;
+    margin: 50px 0 32px 0;
+} 
+hr{
+    width: 70%;
+    border-color: rgba(14, 14, 14, 0.1);
+
+}
+footer .div2{
+    display: flex;
+    gap: 24px;
+    margin: 32px 0 50px 0;                  
 }
