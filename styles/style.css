@@ -5,7 +5,7 @@
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
-    
+
 }
 
 html,
@@ -13,14 +13,14 @@ body {
     width: 100%;
     height: 100%;
     background-color: #F1F1F3;
-} 
+}
 
-/* font family for website */ 
+/* font family for website */
 .fira-sans-regular {
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
-} 
+}
 
 
 
@@ -32,94 +32,97 @@ body {
 
 
 
-header{
+header {
     width: 100%;
     height: 100px;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+
 } 
 
-header .text h4{
+
+
+header .text h4 {
     font-size: 32px;
     font-weight: bold;
     position: relative;
-    left: -75px;
-}  
+    left: -105px;
+}
 
-header .signin-btn{
+header .signin-btn {
     width: 116px;
     height: 52px;
-    font-weight:600;
+    font-weight: 600;
     font-size: 18px;
     color: #006A50;
     background-color: transparent;
-    border:1px solid #006A50;
+    border: 1px solid #006A50;
     border-radius: 8px;
-    outline: 0; 
+    outline: 0;
     position: relative;
-    left: 73px;
+    left:105px;
 
-} 
+}
 
 
-/*  main section */ 
+/*  main section */
 
-main{
+main {
     width: 100%;
     padding: 0 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
-} 
+}
 
 
-/* common styles for all section  */ 
+/* common styles for all section  */
 
-section{
-    width:80%;
+section {
+    width: 80%;
     margin-bottom: 80px;
-} 
+}
 
 
-/* ----------------------------------- hero section ----------------------------  */ 
+/* ----------------------------------- hero section ----------------------------  */
 
 
-#hero{
+#hero {
     height: 560px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-radius:24px ;
+    border-radius: 24px;
     background-color: rgba(198, 228, 214, 1);
 
-} 
+}
 
 
 /* --------- hero section left side---------- */
 
-#hero .left-content{
+#hero .left-content {
     width: 48%;
 
 
-}  
+}
 
-#hero .left-content p{
+#hero .left-content p {
     font-size: 24px;
-    font-weight:500 ;
+    font-weight: 500;
     color: rgba(14, 14, 14, 0.5);
     margin-bottom: 16px;
-} 
+}
 
-#hero .left-content h3{
+#hero .left-content h3 {
     font-size: 56px;
     font-weight: 700;
     color: #0E0E0E;
     margin-bottom: 24px;
-} 
+}
 
-#hero .left-content .explore-btn{
+#hero .left-content .explore-btn {
     width: 270px;
     height: 56px;
     background-color: #006A50;
@@ -129,7 +132,7 @@ section{
 
 /* --------- hero section right side---------- */
 
-#hero .right-content{
+#hero .right-content {
     width: 37%;
 
 }
@@ -137,44 +140,50 @@ section{
 
 /* ----------------------------------- pillar section -----------------------------------  */
 
-#pillars{
+#pillars {
     display: flex;
     flex-direction: column;
 
 }
 
-#pillars h4{
+#pillars h4 {
     margin-bottom: 32px;
-} 
+}
 
-#pillars .body{
+#pillars .body {
     display: flex;
     justify-content: space-between;
-} 
+}
 
-#pillars .body .card{
+#pillars .body .card {
     width: 23%;
     padding: 24px;
     background-color: #fff;
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
-} 
+}
 
 
-#pillars .body .card img{
+#pillars .body .card:hover {
+    background: #a2df79;
+    transition: 1s;
+    transform: translate(10px, -10px);
+}
+
+#pillars .body .card img {
     margin-bottom: 24px;
-} 
+}
 
 
 /* ----------------------------------- future vision section -----------------------------------  */
 
-#vision .head{
+#vision .head {
     margin-bottom: 32px;
-} 
+}
 
 
 
-#vision .body{
+#vision .body {
     display: flex;
     justify-content: space-between;
 }
@@ -182,15 +191,15 @@ section{
 
 /* set the margin of paragraphs of individual cards */
 
-#vision .body .card1 p{
+#vision .body .card1 p {
     margin-bottom: 24px;
 }
 
-#vision .body .card2 p{
+#vision .body .card2 p {
     margin-bottom: 48px;
 }
 
-#vision .body .card3 p{
+#vision .body .card3 p {
     margin-bottom: 26px;
 }
 
@@ -198,38 +207,42 @@ section{
 /* styling every card  */
 
 
-#vision .body .card{
+#vision .body .card {
     width: 32%;
     border-radius: 16px;
     padding: 32px;
-    margin-bottom:32px;
+    margin-bottom: 32px;
 }
 
+#vision .body .card:hover {
+    transition: 1s;
+    background-color: lightcoral;
+}
 
 /* styling individual card */
 
-#vision .body .card1{
+#vision .body .card1 {
     background-color: rgba(84, 144, 245, 0.2);
-} 
+}
 
-#vision .body .card2{
+#vision .body .card2 {
     background-color: rgba(198, 228, 214, 1);
 }
 
-#vision .body .card3{
+#vision .body .card3 {
     background-color: rgba(247, 235, 207, 1);
 }
 
 
 /* set the margin of card images */
 
-#vision .body .card img{
+#vision .body .card img {
     margin-bottom: 24px;
-} 
+}
 
 /* set height and width of cards button */
 
-#vision .body .card button{
+#vision .body .card button {
     width: 122px;
     height: 41px;
     font-size: 16px;
@@ -238,92 +251,93 @@ section{
 
 /*  styling individual button */
 
-#vision .body .card .blue{
+#vision .body .card .blue {
     background-color: #5490F5;
-} 
+}
 
-#vision .body .card .green{
+#vision .body .card .green {
     background-color: #09A15C;
-} 
+}
 
-#vision .body .card .orange{
+#vision .body .card .orange {
     background-color: #FFC239;
-}  
+}
 
 
-/* styling the footer */ 
+/* styling the footer */
 
 
-#vision .foot{
+#vision .foot {
     width: 100%;
     background: url("../assets/quote-bg.png") no-repeat 24px 20px;
-    padding:48px 24px ;
-    background-color:#FFFFFF;
+    padding: 48px 24px;
+    background-color: #FFFFFF;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
 }
 
 
-#vision .foot p{
+#vision .foot p {
     margin-bottom: 12px;
 
 }
 
 
-#vision .foot h6{
+#vision .foot h6 {
     font-size: 20px;
     font-weight: 600;
     color: rgba(14, 14, 14, 0.8);
 
-} 
+}
 
 
 
 /* ------------------------------ opinion table section ----------------------------- */
 
-#your-opinion .body{
+#your-opinion .body {
     width: 100%;
-    background-color:#FFFFFF ;
+    background-color: #FFFFFF;
     border-radius: 16px;
     padding: 32px;
 }
 
-#your-opinion table{
+#your-opinion table {
     width: 100%;
     border-collapse: collapse;
 }
 
 
 
-#your-opinion table thead,td{
+#your-opinion table thead,
+td {
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
 
 
-#your-opinion .body table thead{
+#your-opinion .body table thead {
     height: 72px;
     background-color: #C6E4D6;
 
 }
 
 
-#your-opinion table thead th{
+#your-opinion table thead th {
     font-size: 20px;
     font-weight: 600;
     color: #0E0E0E;
     text-align: left;
     padding: 24px;
-    
-} 
 
-#your-opinion table td{
+}
+
+#your-opinion table td {
     font-size: 16px;
     font-weight: 600;
     color: #0E0E0E;
     padding: 36.5px 0 36.5px 24px;
-} 
+}
 
-#your-opinion tbody td select{
+#your-opinion tbody td select {
     width: 152px;
     height: 44px;
     border-radius: 4px;
@@ -332,16 +346,18 @@ section{
     font-size: 16px;
     font-weight: 500;
     color: #0E0E0E;
-    padding: 10px;
-    padding-right: 30px;
-   
-} 
+    padding-left: 15px;
+    margin-left: 50px;
+    appearance: none;
+    background-image: url("../assets/dropdown.svg");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: bottom 12px right 25px;
+    
 
-#your-opinion tbody tr .select-option{
-    text-align: center;
-    width: 200px;
-    padding: 24px;
-} 
+}
+
+
 
 
 
@@ -349,21 +365,21 @@ section{
 
 /* ------------------------------ recent news section ----------------------------- */
 
-#recent-news .description{
+#recent-news .description {
     margin-bottom: 32px;
 }
 
-#recent-news .boxes{
+#recent-news .boxes {
     border-radius: 24px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     gap: 24px;
-    
+
 }
 
-#recent-news .box{
-    padding:48px;
+#recent-news .box {
+    padding: 48px;
     background-color: #FFFFFF;
     border-radius: 24px;
     display: flex;
@@ -373,35 +389,35 @@ section{
 
 }
 
-#recent-news .boxes .box .images{
+#recent-news .boxes .box .images {
     width: 32%;
     border-radius: 24px;
 
-} 
+}
 
-#recent-news .boxes .box .images img{
+#recent-news .boxes .box .images img {
     border-radius: 24px;
 }
 
 
 
-#recent-news .boxes .box-content{
+#recent-news .boxes .box-content {
     width: 58%;
 
 }
 
 
-#recent-news .boxes .box-content h5{
+#recent-news .boxes .box-content h5 {
     font-size: 32px;
     font-weight: bold;
-    color:rgba(14, 14, 14, 0.8);
+    color: rgba(14, 14, 14, 0.8);
     margin-bottom: 12px;
 }
 
 
-#recent-news .boxes .box-content img{
+#recent-news .boxes .box-content img {
     margin-bottom: 12px;
-} 
+}
 
 
 #recent-news .boxes .box-content {
@@ -409,44 +425,45 @@ section{
     left: -50px;
 }
 
-#recent-news .boxes .box-content .datetime{
+#recent-news .boxes .box-content .datetime {
     display: flex;
     gap: 10px;
     margin-bottom: 12px;
 
 }
 
-#recent-news .boxes .box-content .date,.time{
+#recent-news .boxes .box-content .date,
+.time {
     font-size: 16px;
-    font-weight:400 ;
+    font-weight: 400;
     line-height: 24px;
-    color:rgba(14, 14, 14, 0.7);
+    color: rgba(14, 14, 14, 0.7);
 
 }
 
 
-#recent-news .boxes .box-content .readmore-btn{
+#recent-news .boxes .box-content .readmore-btn {
     width: 139px;
     height: 48px;
     background-color: #006A50;
-} 
+}
 
 
 
 /* ------------------- special flex direction for box 2 ---------------------*/
 
-#recent-news .middle-box{
-    padding:48px;
+#recent-news .middle-box {
+    padding: 48px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
 
-} 
+}
 
 #recent-news .boxes .middle-box .box-content {
 
     position: static;
-} 
+}
 
 #recent-news .boxes .middle-box .images {
     position: relative;
@@ -459,15 +476,15 @@ section{
 
 
 
-/* ------------------- donation section ---------------------*/ 
+/* ------------------- donation section ---------------------*/
 
-#donate .money-card{
+#donate .money-card {
     display: flex;
     justify-content: space-around;
-    margin:32px 0;
-} 
+    margin: 32px 0;
+}
 
-#donate .money-card div{
+#donate .money-card div {
     height: 128px;
     display: flex;
     justify-content: center;
@@ -477,7 +494,7 @@ section{
 }
 
 
-#donate .money-card div p{
+#donate .money-card div p {
     font-size: 40px;
     font-weight: bold;
     color: rgba(14, 14, 14, 0.8);
@@ -487,15 +504,15 @@ section{
 
 
 
-#donate .money-card .one-hundred{
+#donate .money-card .one-hundred {
     width: 240px;
-} 
+}
 
 /*  hover effect on one hundred taka */
 
-#donate .money-card .one-hundred:hover{
+#donate .money-card .one-hundred:hover {
     transform: translate(10px, -10px);
-    transition:  0.8s;
+    transition: 0.8s;
     background-color: #FFA726;
     border: 2px solid goldenrod;
     color: #B76E79;
@@ -505,17 +522,17 @@ section{
 
 
 
-#donate .money-card .two-hundred{
+#donate .money-card .two-hundred {
     width: 252px;
     background-color: #C6E4D6;
-} 
+}
 
 
 /*  hover effect on two hundred taka */
 
-#donate .money-card .two-hundred:hover{
-    transform: translate(-10px, 10px);
-    transition:  0.8s;
+#donate .money-card .two-hundred:hover {
+    transform: translate(10px, -10px);
+    transition: 0.8s;
     background-color: #EF6C00;
     border: 2px solid goldenrod;
     color: #B76E79;
@@ -523,39 +540,39 @@ section{
 
 
 
-#donate .money-card .five-hundred{
+#donate .money-card .five-hundred {
     width: 243px;
-} 
+}
 
 
 /*  hover effect on five hundred taka */
 
-#donate .money-card .five-hundred:hover{
-    transform: translate(10px, 0px);
-    transition:  0.8s;
+#donate .money-card .five-hundred:hover {
+    transform: translate(10px, -10px);
+    transition: 0.8s;
     background-color: #0950a1;
     border: 2px solid goldenrod;
     color: #B76E79;
 }
 
 
-#donate .money-card .thousand{
+#donate .money-card .thousand {
     width: 264px;
 }
 
 
 /*  hover effect on thousand taka */
 
-#donate .money-card .thousand:hover{
-    transform: translate(-10px, 0px);
-    transition:  0.8s;
+#donate .money-card .thousand:hover {
+    transform: translate(10px, -10px);
+    transition: 0.8s;
     background-color: #e42a2a;
     border: 2px solid goldenrod;
     color: #B76E79;
 }
 
-/*  forms // input and button */ 
-#donate form{
+/*  forms // input and button */
+#donate form {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -564,20 +581,21 @@ section{
 }
 
 
-#donate form input[type="text"]{
+#donate form input[type="text"] {
     width: 90%;
     height: 64px;
     border: 0;
+    font-size: 20px;
     text-align: center;
     border-bottom: 1px solid rgba(14, 14, 14, 0.15);
 }
 
 
-#donate form button[type="submit"]{
+#donate form button[type="submit"] {
     width: 151px;
     height: 56px;
     background-color: #006A50;
-} 
+}
 
 
 
@@ -586,49 +604,50 @@ section{
 
 
 
-/* ------------------- subscribe section ---------------------*/ 
+/* ------------------- subscribe section ---------------------*/
 
 
-#subscribe{
+#subscribe {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:80px 265px ;
-    background-color:#C6E4D6 ;
+    padding: 80px 265px;
+    background-color: #C6E4D6;
     border-radius: 24px;
-}  
- 
-                         
-#subscribe .title{
+}
+
+
+#subscribe .title {
     margin-bottom: 24px;
 }
-#subscribe form{
-    width:100%;
+
+#subscribe form {
+    width: 100%;
     display: flex;
 }
 
 
 
-#subscribe form input[type="text"]{
+#subscribe form input[type="text"] {
     width: 90%;
     height: 55px;
     border: 0;
     outline: 0;
     padding: 18px 40px;
-    border-top-left-radius:8px ;
+    border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
-    border-top-right-radius:0px ;
+    border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     margin-bottom: 24px;
-} 
+}
 
 
-#subscribe form button[type="submit"]{
+#subscribe form button[type="submit"] {
     width: 150px;
     height: 54px;
     background-color: #006A50;
-    border-top-left-radius:0px ;
+    border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     position: relative;
     left: 1px;
@@ -638,32 +657,34 @@ section{
 
 
 
-/* ------------------- footer  ---------------------*/ 
+/* ------------------- footer  ---------------------*/
 
 
 
-footer{
+footer {
     width: 100%;
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-} 
+}
 
 
-footer .div1 h3{
-    font-size:32px ;
+footer .div1 h3 {
+    font-size: 32px;
     font-weight: bold;
     margin: 50px 0 32px 0;
-} 
-hr{
+}
+
+hr {
     width: 70%;
     border-color: rgba(14, 14, 14, 0.1);
 
 }
-footer .div2{
+
+footer .div2 {
     display: flex;
     gap: 24px;
-    margin: 32px 0 50px 0;                  
+    margin: 32px 0 50px 0;
 }
